@@ -2,10 +2,10 @@ import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
-import eCommerceImg from "@/public/e-commerce.png";
-import socialMediaImg from "@/public/social-media.png";
-import portfolioImg from "@/public/portfolio.png";
-import authImg from "@/public/auth.png";
+import eCommerceImg from "@/public/e-commerce-web.png";
+import socialMediaImg from "@/public/social-media-web.png";
+import portfolioImg from "@/public/portfolio-web.png";
+import authImg from "@/public/auth-web.png";
 
 export const links = [
   {
