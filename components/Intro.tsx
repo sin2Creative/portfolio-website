@@ -82,14 +82,14 @@ export default function Intro() {
         </a>
         <div className="flex gap-2">
           <a
-            href="https://linkedin.com"
+            href="https://www.linkedin.com/in/sinthujan-sureshkumar-161aa7179/"
             target="_blank"
             className="flex items-center gap-2 bg-white text-gray-700 p-4 rounded-full hover:scale-110 focus:scale-110 active:scale-105 transition border border-black/15 cursor-pointer dark:text-white/60 dark:bg-white/10"
           >
             <BsLinkedin />
           </a>
           <a
-            href="https://github.com"
+            href="https://github.com/sin2Creative"
             target="_blank"
             className="flex items-center gap-2 bg-white text-gray-700 text-xl p-3.5 rounded-full hover:scale-110 focus:scale-110 active:scale-105 transition border border-black/15 cursor-pointer dark:text-white/60 dark:bg-white/10"
           >
