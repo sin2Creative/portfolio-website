@@ -4,6 +4,7 @@ import { projectsData } from "@/lib/data";
 import { motion, useScroll, useTransform } from "framer-motion";
 import Image, { StaticImageData } from "next/image";
 import React, { useRef } from "react";
+import { LuExternalLink } from "react-icons/lu";
 
 type ProjectProps = (typeof projectsData)[number];
 
@@ -28,7 +29,17 @@ export default function ProjectCard({ project }: { project: ProjectProps }) {
     >
       <section className="bg-gray-200 max-w-[42rem] border border-black/5 overflow-hidden relative h-[25rem] rounded-md shadow-md sm:h-[20rem] transition group hover:bg-gray-300 dark:bg-gray-800 dark:text-white sm:pr-8 sm:group-even:pl-8 flex flex-col">
         <div className="pt-4 pb-7 px-5 flex flex-col h-full sm:pl-10 sm:pr-2 sm:pt-10 sm:max-w-[50%] group-even:ml-0 sm:group-even:ml-[18rem]">
-          <h3 className="text-xl font-medium">{project.title}</h3>
+          <div className="flex gap-2 items-center">
+            <h3 className="text-xl font-medium">{project.title}</h3>
+            <a
+              className="text-blue-900 dark:text-blue-300"
+              href={project.linkUrl}
+              target="_blank"
+            >
+              <LuExternalLink />
+            </a>
+          </div>
+
           <p className="mt-2 leading-relaxed text-sm dark:text-white/70">
             {project.description}
           </p>

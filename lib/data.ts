@@ -5,6 +5,10 @@ import { LuGraduationCap } from "react-icons/lu";
 import corpcommentImg from "@/public/corpcomment.png";
 import rmtdevImg from "@/public/rmtdev.png";
 import wordanalyticsImg from "@/public/wordanalytics.png";
+import eCommerceImg from "@/public/e-commerce.png";
+import socialMediaImg from "@/public/social-media.png";
+import portfolioImg from "@/public/portfolio.png";
+import authImg from "@/public/auth.png";
 
 export const links = [
   {
@@ -58,25 +62,36 @@ export const experiencesData = [
 
 export const projectsData = [
   {
-    title: "CorpComment",
+    title: "E-Commerce Website",
     description:
-      "I worked as a full-stack developer on this startup project for 2 years. Users can give public feedback to companies.",
-    tags: ["React", "Next.js", "MongoDB", "Tailwind", "Prisma"],
-    imageUrl: corpcommentImg,
+      "Developed a simple e-commerce website with user authentication and ”Add to Cart” functionality, utilizing server actions for backend processing.",
+    tags: ["React", "Next.js", "TypeScript", "MongoDB", "Tailwind", "Prisma"],
+    imageUrl: eCommerceImg,
+    linkUrl: "https://github.com/sin2Creative/e-commerce",
   },
   {
-    title: "rmtDev",
+    title: "Social Media Website",
     description:
-      "Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.",
-    tags: ["React", "TypeScript", "Next.js", "Tailwind", "Redux"],
-    imageUrl: rmtdevImg,
+      "Developed a simple social media website with features like adding posts, liking, commenting, sending friend requests, and blocking users.",
+    tags: ["React", "TypeScript", "Next.js", "Tailwind", "MongoDB", "Prisma"],
+    imageUrl: socialMediaImg,
+    linkUrl: "https://github.com/sin2Creative/social-media",
   },
   {
-    title: "Word Analytics",
+    title: "Personal Portfolio",
     description:
-      "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
-    tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
-    imageUrl: wordanalyticsImg,
+      "Developed a personal portfolio with single-page navigation, featuring a contact form that uses React Mail and Server Actions to send messages directly to a personal email, along with dark mode and animations",
+    tags: ["React", "Next.js", "Tailwind", "Framer Motion"],
+    imageUrl: portfolioImg,
+    linkUrl: "https://sinthujan.vercel.app/",
+  },
+  {
+    title: "Full Auth Boilerplate",
+    description:
+      "Developed a full authentication boilerplate with NextAuth, Resend for email, and Server Actions, supporting user registration, login, password reset, and email verification.",
+    tags: ["React", "Next.js", "Tailwind", "Tailwind", "Prisma", "MongoDB"],
+    imageUrl: authImg,
+    linkUrl: "https://github.com/sin2Creative/starter_with_next_auth",
   },
 ] as const;
 
@@ -87,6 +102,7 @@ export const skillsData = [
   "TypeScript",
   "React",
   "Next.js",
+  "Node JS",
   "Git",
   "Tailwind",
   "Prisma",
